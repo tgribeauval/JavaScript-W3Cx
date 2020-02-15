@@ -5,7 +5,7 @@ function removeSelected() {
   list.forEach(function(elm) {
     // elm is an <input type="checkbox">, its parent is a li
     // we want to remove from the <ul> list
-    // when we remove the <li>, the <input> will also
+    // when we remove the <li>, the <input> will alsols
     // be removed, as it's a child of the <li>
     var li = elm.parentNode;
     ul.removeChild(li);
