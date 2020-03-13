@@ -27,3 +27,33 @@ undefined
  
 > a.join(' and ');
 "1 and 3 and 5 and 7 and test"
+
+
+The Number class can be used to transform strings into numbers, but it is recommended that you use parseInt or parseFloat instead.
+
+var n = Number('3.1416');
+undefined
+ 
+> n;
+3.1416
+ 
+> typeof n;
+"number"
+ 
+> var n = parseInt('3.1416'); // convert a string to an integer number
+undefined
+ 
+> n;
+3
+ 
+> var n = parseFloat('3.1416'); // convert a string to a float number
+undefined
+ 
+> n;
+3.1416
+
+> Number.MAX_VALUE;
+1.7976931348623157e+308
+ 
+> Number.MIN_VALUE;
+5e-324
